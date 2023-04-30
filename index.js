@@ -1,5 +1,5 @@
 $(document).ready(function () { 
-    $("#nome_tarefas").val("Olá mundo"); //tirar isso dps
+
 
     $("form").on("submit",function (e) {
         e.preventDefault();
