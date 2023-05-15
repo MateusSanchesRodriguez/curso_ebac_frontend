@@ -1,0 +1,22 @@
+@import "variables";
+
+@media screen and (max-width: @breakpoints[desktop]) {
+  .container {
+    max-width: @container-max-width-mobile;
+  }
+
+  .products {
+    grid-template-columns: repeat(@grid-columns-mobile, 48.5%);
+    column-gap: @grid-column-gap-mobile;
+  }
+}
+
+@media screen and (max-width: @breakpoints[mobile]) {
+  .products {
+    display: block;
+
+    .product-item {
+      margin-bottom: @product-item-margin-bottom-mobile;
+    }
+  }
+}
