@@ -1,14 +1,12 @@
 module.exports = function(grunt) {
-    // Configuração do Grunt
     grunt.initConfig({
-      // Tarefa para compilar LESS
         less: {
             development: {
                 options: {
-                    compress: false // Compressão do CSS desativada para desenvolvimento
+                    compress: false
                 },
                 files: {
-                    './dist/main.css': './src/main.less' // Caminhos para os arquivos LESS de entrada e CSS de saída
+                    './dist/main.css': './src/main.less'
                 }
             }
         },
