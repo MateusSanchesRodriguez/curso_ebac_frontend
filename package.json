@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "less": "lessc ./src/styles/styles.less ./build/styles/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
